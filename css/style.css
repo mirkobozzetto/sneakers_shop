@@ -11,7 +11,7 @@ body {
   z-index: 2;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 5s ease infinite;
   height: 100vh;
   color: #fff;
   font-family: "Arial", sans-serif;
@@ -30,7 +30,7 @@ nav {
   z-index: 2;
   color: #cccccc;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(167, 167, 167, 0.9);
   position: sticky;
   top: 0;
   z-index: 1;
@@ -50,15 +50,15 @@ nav {
   nav li {
     margin: 0 1rem; }
   nav a {
-    color: rgba(0, 0, 0, 0.473);
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease; }
     nav a:hover {
-      color: #333333; }
+      color: black; }
 
 .hero {
-  background: linear-gradient(-45deg, #c3ff37, #ffffff61);
+  background: linear-gradient(-45deg, #ebffbdb7, #ffcecebc);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -68,7 +68,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 72px); }
+  height: calc(50vh - 72px); }
   .hero h1 {
     font-size: 4rem;
     text-align: center;
@@ -79,7 +79,6 @@ nav {
   .hero__img {
     position: absolute;
     width: 100%;
-    margin-top: 10rem;
     opacity: 0.5;
     z-index: -1; }
 
@@ -111,7 +110,7 @@ section {
     line-height: 1.5; }
 
 .presentation {
-  background-color: #fff;
+  background-color: #00000034;
   color: #fff;
   padding: 2rem;
   text-align: center; }
